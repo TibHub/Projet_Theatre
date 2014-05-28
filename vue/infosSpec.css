@@ -1,0 +1,317 @@
+﻿body {
+	background-image:url('ImagesTheatre/fondSite.jpg');
+	display:inline-block;
+}
+
+#corps {
+	width:50em;
+	height:105em;
+	margin-left:4em;
+	float:left;
+	
+	
+	background-color:white;
+	border-style:solid;
+	border-width:2px;
+	border-color:#990033;
+	background-color:#E9E9E9;
+	/*border-color:#AE0000;*/
+	
+	-moz-box-shadow:0px 0px 5px black;
+	-ms-box-shadow:0px 0px 5px black;
+	-o-box-shadow:0px 0px 5px black;
+	-webkit-box-shadow:0px 0px 5px black;
+	box-shadow:0px 0px 7px black;
+}
+
+#rubrique {
+	width:98%;
+	height:2%;
+	margin:auto;
+	
+	color:white;
+	/*font-size:20px;*/
+	font-family:Broadway;
+	border-style:solid;
+	border-width:1px;
+	border-color:black;
+	
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-o-border-radius: 3px;
+	border-radius: 3px;
+
+}
+
+#infos {
+	width:48em;
+	height:26em;
+	margin:auto;
+	background-color:#B5B5B5;
+}
+
+
+#img {
+	float:left;
+	width:17em;
+	height:26em;
+}
+
+#fig {
+	width:inherit;
+	height:inherit;
+}
+
+#imgSpec {
+	width:inherit;
+	height:inherit;
+}
+
+#spec {
+	float:left;
+	width:31em;
+	height:inherit;
+}
+
+.gradientNoir {
+	/* Anciens navigateurs */
+	background: black url("gradientNoir-bg.png") repeat-x top;
+	-o-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	/* Internet Explorer */
+	*background: black;
+	background: black\0/;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="gradientNoir-bg.png", sizingMethod="scale");
+	}
+	@media all and (min-width: 0px) {
+		.gradientNoir {
+			/* Opera */
+			background: black url("gradient-bg.svg");
+			/* Navigateurs récents */
+			background-image: -webkit-gradient(
+				linear,
+				left top, left bottom,
+				from(dimgray),
+				to(black),
+		color-stop(0.5, #111)
+			);
+			background-image: -webkit-linear-gradient(
+				top,
+				dimgray,
+				#111 50%,
+		black
+			);
+			background-image: -moz-linear-gradient(
+				top,
+				dimgray,
+				#111 50%,
+		black
+			);
+			background-image: -o-linear-gradient(
+				top,
+				dimgray,
+				#111 50%,
+		black
+			);
+			background-image: linear-gradient(
+				top,
+				dimgray,
+				#111 50%,
+		black
+			);
+		}
+	}
+
+#reservblock
+{
+	display:inline;
+}
+	
+#reserv {
+	width:24em;
+	height:20em;
+	margin-left:1em;
+	background-color:#B5B5B5;
+	overflow:auto;
+	border-style:double;
+	border-width:1px;
+	position:relative;
+	float:left;
+}
+
+
+.seance {
+	display:block;
+	border-style:solid;
+}
+	
+#reservchx {
+	padding-top:2em;
+	padding-left:2em;
+	width:22em;
+	height:18em;
+	background-color:#B5B5B5;
+	overflow:auto;
+	border-style:double;
+	border-width:1px;
+	position:relative;
+	visibility:hidden;
+}
+
+#validForm {
+	margin-top:1.5em;
+	margin-left:15em;
+	
+}
+
+
+#confirmation {
+	float:left;
+	width:22em;
+	height:5em;
+	margin-left:25em;
+	display:block;
+	border-style:solid;
+	border-width:1px;
+	position:absolute;
+	color:white;
+	text-align:center;
+}
+
+.valid {
+	border-color:green;
+	background-color:#9FDF9F;
+}
+
+
+.erreur {
+	border-color:red;
+	background-color:#FF5151;
+}
+
+
+#Avis {
+	width:48em;
+	height:35em;
+	margin:auto;
+	border-style:solid;
+	border-width:1px;
+	border-color:gray;
+	background-color:white;
+}
+
+#commentaire {
+	width:inherit;
+	height:5em;
+	/*border-top-style:double;
+	border-bottom-style:double;*/
+	margin-top:1em;
+	margin-bottom:1em;
+}
+
+#user {
+	width:9em;
+	margin-left:1em;
+	margin-right:1em;
+	height:inherit;
+	float:left;
+	color:white;
+	font-family:Calibri;
+	font-size:13px;
+	background-color:#990033;
+	
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-o-border-radius: 3px;
+	border-radius: 3px;
+}
+
+#commenter {
+	float:left;
+	width:35.9em;
+	height:inherit;
+}
+
+.bloque {
+	background-color:gray;
+}
+
+#text {
+	width:35.9em;
+	height:inherit;
+	padding-right:1em;
+	background-color:white;
+	font-family:Calibri;
+	border-left-style:solid;
+	border-left-width:1px;
+	float:left;
+	overflow:auto;
+	
+	-moz-box-shadow:-3px 0px 5px black;
+	-ms-box-shadow:-3px 0px 5px black;
+	-o-box-shadow:-3px 0px 5px black;
+	-webkit-box-shadow:-3px 0px 5px black;
+	box-shadow:-3px 0px 5px black;
+
+}
+
+
+#btn {
+	opacity:1;
+	width:2em;
+	height:1.5em;
+	border-style:solid;
+	border-width:1px;
+	/*border-radius*/
+	-moz-border-radius:3px;
+	-ms-border-radius:3px;
+	-webkit-border-radius:3px;
+	-o-border-radius:3px;
+	border-radius:3px;
+}
+
+.btnBloque {
+	opacity : 0.7;
+}
+
+#navPages {
+	margin-top:1em;
+
+}
+
+#listePages {
+	list-style-type:none;
+	margin:auto;
+}
+
+#listePages li{
+	display:inline-block;
+	width:2em;
+	height:2em;
+	background-color:#990033;
+	text-align:center;
+	margin-right:1em;
+	padding-top:0.5em;
+		
+	/*border-radius*/
+	-moz-border-radius:10px;
+	-ms-border-radius:10px;
+	-webkit-border-radius:10px;
+	-o-border-radius:10px;
+	border-radius:10px;
+
+}
+
+#listePages a{
+	text-decoration:none;
+	color:white;
+}
+
+#listePages #PageAct {
+	background-color:black;
+	color:white;
+}
